@@ -1,6 +1,6 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
-        x = x ** .5
+        x = math.sqrt(x)
         roundedDownNumber = math.floor(x)
         return roundedDownNumber
         
