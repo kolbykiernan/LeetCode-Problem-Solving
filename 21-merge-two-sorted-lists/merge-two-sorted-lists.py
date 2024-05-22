@@ -20,4 +20,18 @@ class Solution:
         if list2:
             finalList.next = list2
         return mergedList.next
+
+
+# def mergeTwoLists(list1, list2):
+    
+#     merged_list = list1 + list2
+#     merged_list.sort()
+
+#     return merged_list
+
+# list1 = [1, 2, 4]
+# list2 = [1, 3, 4]
+
+# sorted_list = mergeTwoLists(list1, list2)
+# print(sorted_list)
         
